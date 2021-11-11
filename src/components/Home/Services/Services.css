@@ -1,0 +1,27 @@
+
+  @media only screen and (max-width: 750px) {
+    .topMargin {
+      margin-top: 17rem;
+    }
+  }
+  .serviceCard{
+    /* display:inline-block; */
+    border: 2px solid #ffffff00;
+    user-select: none;
+    padding: 10px !important;
+    border-radius: 7px ;
+  }
+  .serviceCard:hover{
+    border: 2px solid #dbdbdb;
+    cursor: pointer;
+    border-radius: 7px ;
+    position: relative;
+    animation: myMove .5s 1;
+    transition: 0.3s;
+
+  }
+@keyframes myMove {
+  0%   {top: 0px;}
+  25%  {top: 10px;}
+   75%  {top: 0px}
+}

@@ -1,0 +1,11 @@
+.row.mt-5.list-header {
+    background: #67d0d9;
+    padding: 3px;
+    border-radius: 4px;
+    color: white;
+}
+.appointments{
+    height: 100vh;
+    /* width: 100vw; */
+    overflow: auto;
+}

@@ -1,0 +1,21 @@
+img.col-md-4.google-icon {
+    width: 10%;
+    height: 100%;
+
+}
+span.border.google-formate {
+    border-radius: 30px;
+    cursor: pointer;
+}
+span.text-primary.create-account {
+    cursor: pointer;
+}
+span.border.google-formate {
+    border-radius: 30px;
+    cursor: pointer;
+    width: 81%;
+    margin: auto;
+}
+.login-img {
+    height: 120px;
+}

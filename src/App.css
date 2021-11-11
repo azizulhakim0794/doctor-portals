@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -11,7 +11,7 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
   background-color: #282c34;
@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+img.img-fluid.mb-3.fix-doctor-img {
+  height: 250px;
+}
+.btn-main {
+  padding: 8px 16px;
+  border-radius: 4px;
+  background: #1CC7C1;
+  border: 2px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out;
+  background-color :.15s ease-in-out;
+  border-color :.15s ease-in-out;
+  box-shadow: .15s ease-in-out;
+  color: white;
+}
+.text-main{
+ color: #1cc7c1
+}
+.btn-main:hover{
+  background-color: #1ab3ad;
+}
+.btn-check:focus+.btn-main, .btn-main:focus {
+  background-color: #1CC7C1;
+  border-color: #1CC7C1;
+  box-shadow: 0 0 0 0.25rem #83cfcd8c;
+}
+.loading {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* @media only screen and (min-width: 600px) {
+  .ReactModal__Content.ReactModal__Content--after-open {
+    width: 300px;
+  }
+} */
+.ReactModal__Content.ReactModal__Content--after-open {
+  width: 400px;
+}
+

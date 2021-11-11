@@ -1,0 +1,22 @@
+.react-calendar__tile--active {
+    background: #39c3ce !important;
+    color: white;
+    border-radius: 8px;
+}
+.react-calendar {
+    border: none;
+}
+.appointment_bg{
+    background-image: url('./../../images/chairBg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form-check-input .doctor:checked {
+    background-color: #1cc7c1;
+    border-color: #1cc7c1;
+}
+@media only screen and (max-width: 767px) {
+    .appointment_chair{
+        display: none !important;
+    }
+  }
