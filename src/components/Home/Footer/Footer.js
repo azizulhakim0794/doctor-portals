@@ -55,7 +55,7 @@ const Footer = () => {
                     </FooterCol>
                 </div>
                 <div className="copyRight text-center">
-                    <p>Copyright {(new Date()).getFullYear()} All Rights Reserved by <a href="https://azizulhakim.netlify.app" rel="noreferrer" target="_blank">Tamzid</a></p>
+                    <p>Copyright {(new Date()).getFullYear()} All Rights Reserved by <a href="https://azizul-hakim01.firebaseapp.com" rel="noreferrer" target="_blank">Tamzid</a></p>
                 </div>
             </div>
         </footer>

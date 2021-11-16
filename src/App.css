@@ -1,18 +1,6 @@
 .App {
   text-align: center;
 }
-
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -49,7 +37,6 @@ img.img-fluid.mb-3.fix-doctor-img {
   border-radius: .25rem;
   transition: color .15s ease-in-out;
   background-color :.15s ease-in-out;
-  border-color :.15s ease-in-out;
   box-shadow: .15s ease-in-out;
   color: white;
 }
